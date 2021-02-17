@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int numer;
+	int j;
+	cout << "Kola - 1" << "\nSprite - 2" << "\nWoda - 3" << "\nGowno - 4" << "\nporno-_- - 5" << endl;
+	cout << "Podaj numere napoju ktory chcesz:" << endl;
+	cin >> numer;
+	cout << "podales numer:" << numer << endl;
+	if (numer == 1) {
+		cout << "jest to Kola" << endl;
+	}
+	else if (numer == 2) {
+		cout << "jest to Sprite" << endl;
+	}
+	else if (numer == 3) {
+		cout << "jest to Woda" << endl;
+	}
+	else if (numer == 4) {
+		cout << "jest to Gowno" << endl;
+	}
+	else if (numer == 5) {
+		cout << "jest to porno-_-" << endl;
+	}
+	else if (numer > 5) {
+		cout << "wprowadziles zly numer, oto twoja reszta";
+	}
+	
+	cout << "\ndowidzenia :) (kliknij dowolny przycisk)" << endl;
+	cin >> j;
+}
